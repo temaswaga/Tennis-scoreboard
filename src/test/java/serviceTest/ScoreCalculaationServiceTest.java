@@ -1,14 +1,12 @@
 package serviceTest;
 
-import dto.CurrentMatch;
+import entity.CurrentMatch;
 import models.Player;
-import dto.Score;
-import org.junit.experimental.runners.Enclosed;
+import entity.Score;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
-import org.junit.runner.RunWith;
 import service.ScoreCalculationService;
 
 import static org.junit.jupiter.api.Assertions.*;

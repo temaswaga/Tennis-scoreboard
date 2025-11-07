@@ -1,6 +1,6 @@
 package controllers;
 
-import dto.CurrentMatch;
+import entity.CurrentMatch;
 import service.MatchService;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;

@@ -6,6 +6,7 @@ target/
 build/
 .idea/
 *.iml
+echo ".idea/" >> .gitignore
 
 # Системные файлы
 .DS_Store

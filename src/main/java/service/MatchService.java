@@ -1,14 +1,12 @@
 package service;
 
 import dao.MatchDao;
-import dto.CurrentMatch;
-import dto.Score;
+import entity.CurrentMatch;
+import entity.Score;
 import models.Match;
 import models.Player;
 import jakarta.servlet.http.HttpServletRequest;
-import validation.MatchesValidationService;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.UUID;

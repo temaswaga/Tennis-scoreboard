@@ -1,7 +1,7 @@
 package service;
 
-import dto.CurrentMatch;
-import dto.Score;
+import entity.CurrentMatch;
+import entity.Score;
 
 public class ScoreCalculationService {
     private static final int DEUCE_POINT = 40;
